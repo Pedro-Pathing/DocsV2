@@ -8,22 +8,22 @@ seo:
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Pedro Pathing
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+Unlike conventional pathing systems such as RoadRunner, Pedro Pathing leverages Bézier curve generation to produce smoother, faster, and more efficient trajectories.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Its primary focus is on enhancing the adaptability of robots during autonomous operation by reacting dynamically to environmental changes, reducing error margins, and ensuring optimal path execution.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /pathing
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Get Started with Pedro Pathing
   :::
 
   :::u-button
