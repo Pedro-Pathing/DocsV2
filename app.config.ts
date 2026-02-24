@@ -4,13 +4,13 @@ export default defineAppConfig({
 
     header: {
       logo: true,
-      title: 'docus',
+      title: 'Pedro Pathing',
       url: '/en'
     }
   },
 
   seo: {
-    title: 'Documentation',
-    description: 'Your documentation site',
+    title: 'Pedro Pathing Documentation',
+    description: 'Pedro Pathing leverages Bézier curve generation to produce smoother, faster, and more efficient trajectories for FTC autonomous navigation.',
   }
 })

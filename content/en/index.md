@@ -1,9 +1,7 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Pedro Pathing Documentation
+  description: Pedro Pathing leverages Bézier curve generation to produce smoother, faster, and more efficient trajectories for FTC autonomous navigation.
 ---
 
 ::u-page-hero
@@ -31,7 +29,7 @@ Its primary focus is on enhancing the adaptability of robots during autonomous o
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/Pedro-Pathing
   variant: outline
   ---
   Star on GitHub
@@ -40,84 +38,79 @@ Its primary focus is on enhancing the adaptability of robots during autonomous o
 
 ::u-page-section
 #title
-Shipped with many features
+Features
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-route
+  to: /en/reference/beziercurves
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
-  
+  [Bézier Curve]{.text-primary} Path Following
+
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Pedro Pathing uses Bézier curves for smooth, efficient trajectories. The Weierstrass Approximation Theorem guarantees that any continuous curve can be approximated to arbitrary precision.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-target
+  to: /en/tuning/pids
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
-  
+  [PIDF]{.text-primary} Control System
+
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Three independent PID controllers for translational, heading, and drive correction. Supports single or dual PID systems for fine-tuned performance.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-compass
+  to: /en/tuning/localization
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
+  Multiple [Localizers]{.text-primary}
+
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Supports drive encoders, two-wheel, three-wheel, three-wheel + IMU, goBILDA Pinpoint, and SparkFun OTOS localizers out of the box.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-zap
+  to: /en/reference/drive-vector-algorithm
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
+  [Fast]{.text-primary} Path Execution
+
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Pedro Pathing uses four vectors to calculate optimal wheel powers, with centripetal force correction for accurate curved path following.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-lucide-map
   target: _blank
-  to: https://content.nuxt.com/studio
+  to: https://visualizer.pedropathing.com
   ---
   #title
-  Edit in production with [Nuxt Studio]{.text-primary}
-  
+  Web-Based [Visualizer]{.text-primary}
+
   #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  A no-code, web-based path generator and visualizer that can export code for paths. Design your autonomous routines visually and generate code automatically.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-shield-check
+  to: /en/reference/callbacks
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
+  [Path Callbacks]{.text-primary}
+
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Define custom callbacks that execute at specific points along your path. Support for parametric, temporal, and pose-based triggers for arm actions and more.
   :::
 ::
